@@ -1,0 +1,7 @@
+task_id,target_photo_id,memory_prompt,difficulty,expected_initial_cluster,hidden_discriminator
+TASK01,P01,birthday with school friends,medium,birthday,visual_detail:red wall
+TASK02,P15,my sister's wedding,medium,wedding,event:wedding ceremony
+TASK03,P08,football match with my team,medium,football,people:Team A
+TASK04,P22,screenshot of my sales targets,medium,screenshot,month:March
+TASK05,P29,my graduation photo,easy,graduation,people:classmates
+TASK06,P35,a meal with friends on a trip,hard,travel,indoors_outdoors:indoors

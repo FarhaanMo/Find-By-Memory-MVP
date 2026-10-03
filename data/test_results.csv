@@ -1,0 +1,1 @@
+session_id,participant_id,task_id,mode,target_photo_id,initial_memory,initial_candidate_count,clarification_1,answer_1,candidate_count_after_1,clarification_2,answer_2,candidate_count_after_2,target_found,time_to_target_seconds,interaction_count,manual_scan_needed,none_of_these_used,undo_used,completed_at

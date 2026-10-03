@@ -1,0 +1,41 @@
+photo_id,image_path,year,month,people,event,location_context,indoors_outdoors,visual_detail,category,association,description,search_text,test_target
+P01,assets/photos/P01.png,2021,June,school friends,birthday,restaurant,indoors,red wall,photo,school,School friends at a birthday dinner with a red wall.,birthday school friends restaurant,TASK01
+P02,assets/photos/P02.png,2021,June,school friends,birthday,restaurant,indoors,red wall,photo,school,School friends at a birthday dinner with a red wall.,birthday school friends restaurant,
+P03,assets/photos/P03.png,2021,July,school friends,birthday,restaurant,indoors,red wall,photo,school,School friends at a birthday dinner with a red wall.,birthday school friends restaurant,
+P04,assets/photos/P04.png,2021,June,school friends,birthday,restaurant,indoors,blue wall,photo,school,School friends at a birthday dinner with a blue wall.,birthday school friends restaurant,
+P05,assets/photos/P05.png,2021,July,school friends,birthday,restaurant,indoors,blue wall,photo,school,School friends at a birthday dinner with a blue wall.,birthday school friends restaurant,
+P06,assets/photos/P06.png,2021,July,school friends,birthday,restaurant,indoors,blue wall,photo,school,School friends at a birthday dinner with a blue wall.,birthday school friends restaurant,
+P07,assets/photos/P07.png,2022,April,family,birthday,home,indoors,cake,photo,family,A family birthday cake at home.,birthday family home cake,
+P08,assets/photos/P08.png,2022,October,Team A,football match,stadium,outdoors,crowd,photo,club,Team A during a football match.,football match team stadium,TASK03
+P09,assets/photos/P09.png,2022,October,Team A,football match,stadium,outdoors,crowd,photo,club,Team A during a football match.,football match team stadium,
+P10,assets/photos/P10.png,2022,October,Team A,football match,stadium,outdoors,goalposts,photo,club,Team A during a football match.,football match team stadium,
+P11,assets/photos/P11.png,2022,October,Team B,football match,stadium,outdoors,crowd,photo,club,Team B during a football match.,football match team stadium,
+P12,assets/photos/P12.png,2022,October,Team B,football match,stadium,outdoors,crowd,photo,club,Team B during a football match.,football match team stadium,
+P13,assets/photos/P13.png,2022,October,Team B,football match,stadium,outdoors,crowd,photo,club,Team B during a football match.,football match team stadium,
+P14,assets/photos/P14.png,2021,May,Team A,football training,training ground,outdoors,cones,photo,club,Team A at football training.,football training team,
+P15,assets/photos/P15.png,2021,August,sister,wedding ceremony,family home,indoors,white dress,photo,sister,Sister's wedding ceremony.,sister wedding family,TASK02
+P16,assets/photos/P16.png,2021,August,sister,wedding ceremony,family home,indoors,flowers,photo,sister,Sister's wedding ceremony.,sister wedding family,
+P17,assets/photos/P17.png,2021,August,sister,wedding ceremony,family home,indoors,aisle,photo,sister,Sister's wedding ceremony.,sister wedding family,
+P18,assets/photos/P18.png,2021,August,sister,wedding invitation,family home,indoors,invitation card,screenshot,sister,Sister's wedding invitation.,sister wedding family,
+P19,assets/photos/P19.png,2021,August,sister,wedding invitation,family home,indoors,invitation card,screenshot,sister,Sister's wedding invitation.,sister wedding family,
+P20,assets/photos/P20.png,2021,August,sister,wedding group,family home,indoors,family group,photo,sister,Sister's wedding group.,sister wedding family,
+P21,assets/photos/P21.png,2019,September,friends,wedding ceremony,garden,outdoors,arch,photo,friends,Friends at an outdoor wedding.,wedding friends garden,
+P22,assets/photos/P22.png,2023,March,,sales review,phone,,sales chart,screenshot,work,Screenshot of sales targets from March.,screenshot sales targets,TASK04
+P23,assets/photos/P23.png,2023,March,,sales review,phone,,sales chart,screenshot,work,Screenshot of sales targets from March.,screenshot sales targets,
+P24,assets/photos/P24.png,2023,March,,sales review,phone,,sales chart,screenshot,work,Screenshot of sales targets from March.,screenshot sales targets,
+P25,assets/photos/P25.png,2023,September,,sales review,phone,,sales chart,screenshot,work,Screenshot of sales targets from September.,screenshot sales targets,
+P26,assets/photos/P26.png,2023,September,,sales review,phone,,sales chart,screenshot,work,Screenshot of sales targets from September.,screenshot sales targets,
+P27,assets/photos/P27.png,2023,September,,sales review,phone,,sales chart,screenshot,work,Screenshot of sales targets from September.,screenshot sales targets,
+P28,assets/photos/P28.png,2022,January,,message,phone,,chat thread,screenshot,work,A screenshot of a message thread.,screenshot message,
+P29,assets/photos/P29.png,2022,June,classmates,graduation ceremony,campus,outdoors,cap and gown,photo,school,Graduation photo with classmates.,graduation ceremony campus,TASK05
+P30,assets/photos/P30.png,2022,June,classmates,graduation ceremony,campus,outdoors,cap and gown,photo,school,Graduation photo with classmates.,graduation ceremony campus,
+P31,assets/photos/P31.png,2022,June,classmates,graduation ceremony,campus,outdoors,cap and gown,photo,school,Graduation photo with classmates.,graduation ceremony campus,
+P32,assets/photos/P32.png,2022,June,family,graduation ceremony,campus,outdoors,cap and gown,photo,school,Graduation photo with family.,graduation ceremony campus,
+P33,assets/photos/P33.png,2022,June,family,graduation ceremony,campus,outdoors,cap and gown,photo,school,Graduation photo with family.,graduation ceremony campus,
+P34,assets/photos/P34.png,2022,June,solo,graduation ceremony,campus,outdoors,cap and gown,photo,school,Graduation photo with solo.,graduation ceremony campus,
+P35,assets/photos/P35.png,2021,July,friends,dinner,restaurant,indoors,shared table,photo,travel,A dinner with friends during a trip.,meal friends trip,TASK06
+P36,assets/photos/P36.png,2021,July,friends,dinner,restaurant,indoors,shared table,photo,travel,A dinner with friends during a trip.,meal friends trip,
+P37,assets/photos/P37.png,2021,July,friends,dinner,restaurant,indoors,shared table,photo,travel,A dinner with friends during a trip.,meal friends trip,
+P38,assets/photos/P38.png,2021,July,friends,picnic,beach,outdoors,shared table,photo,travel,A picnic with friends during a trip.,meal friends trip,
+P39,assets/photos/P39.png,2021,July,friends,picnic,beach,outdoors,shared table,photo,travel,A picnic with friends during a trip.,meal friends trip,
+P40,assets/photos/P40.png,2021,July,friends,picnic,beach,outdoors,shared table,photo,travel,A picnic with friends during a trip.,meal friends trip,
