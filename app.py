@@ -35,7 +35,8 @@ st.markdown(
         background:
             radial-gradient(880px 380px at 50% 12%, rgba(219, 234, 254, 0.7), transparent 68%),
             #F7F8FC;
-        color: #1C1917;
+        color: #171717;
+        color-scheme: light;
     }
     header[data-testid="stHeader"] { background: transparent; height: 0; }
     #MainMenu, footer, [data-testid="stToolbar"], [data-testid="stDecoration"] { display: none; }
@@ -99,17 +100,94 @@ st.markdown(
         box-shadow: 0 10px 28px rgba(28, 25, 23, 0.05);
     }
     div[data-testid="stForm"] [data-testid="stHorizontalBlock"] { align-items: center; }
-    button[data-testid="stBaseButton-primary"] {
-        background: #1D4ED8; border: none; border-radius: 999px; color: #FFFFFF; font-weight: 650;
+    button[kind="primary"],
+    button[kind="primaryFormSubmit"],
+    button[data-testid="stBaseButton-primary"],
+    button[data-testid="stBaseButton-primaryFormSubmit"] {
+        background: #2457E6 !important; background-color: #2457E6 !important;
+        border: none !important; border-radius: 999px !important;
+        color: #FFFFFF !important; font-weight: 650 !important;
     }
-    button[data-testid="stBaseButton-secondary"] { border-radius: 999px; }
-    .element-container:has(.examples-anchor) + .element-container button {
-        border-radius: 999px !important; background: #FFFFFF !important; border: 1px solid #E7E5E4 !important;
-        color: #44403C !important; font-weight: 550 !important; white-space: nowrap !important;
+    button[kind="primary"]:hover,
+    button[kind="primaryFormSubmit"]:hover,
+    button[data-testid="stBaseButton-primary"]:hover,
+    button[data-testid="stBaseButton-primaryFormSubmit"]:hover {
+        background: #1D4ED8 !important; background-color: #1D4ED8 !important; color: #FFFFFF !important;
+    }
+    button[kind="primary"] p,
+    button[kind="primaryFormSubmit"] p,
+    button[data-testid="stBaseButton-primary"] p,
+    button[data-testid="stBaseButton-primaryFormSubmit"] p { color: #FFFFFF !important; }
+    button[kind="secondary"],
+    button[kind="secondaryFormSubmit"],
+    button[data-testid="stBaseButton-secondary"],
+    button[data-testid="stBaseButton-secondaryFormSubmit"],
+    div[data-testid="stDownloadButton"] button {
+        background: #FFFFFF !important; background-color: #FFFFFF !important; color: #171717 !important;
+        border: 1px solid #E7E5E4 !important; border-radius: 999px !important;
+    }
+    button[kind="secondary"]:hover,
+    button[kind="secondaryFormSubmit"]:hover,
+    button[data-testid="stBaseButton-secondary"]:hover,
+    button[data-testid="stBaseButton-secondaryFormSubmit"]:hover,
+    div[data-testid="stDownloadButton"] button:hover {
+        background: #F8FAFC !important; background-color: #F8FAFC !important;
+        color: #171717 !important; border-color: #D6D3D1 !important;
+    }
+    button[kind="secondary"] p,
+    button[kind="secondaryFormSubmit"] p,
+    button[data-testid="stBaseButton-secondary"] p,
+    button[data-testid="stBaseButton-secondaryFormSubmit"] p,
+    div[data-testid="stDownloadButton"] button p { color: #171717 !important; }
+    button[kind="secondary"]:disabled,
+    button[kind="secondaryFormSubmit"]:disabled,
+    button[data-testid="stBaseButton-secondary"]:disabled,
+    button[data-testid="stBaseButton-secondaryFormSubmit"]:disabled {
+        background: #FFFFFF !important; background-color: #FFFFFF !important;
+        color: #A8A29E !important; border-color: #E7E5E4 !important;
+    }
+    button[kind="secondary"]:disabled p,
+    button[kind="secondaryFormSubmit"]:disabled p,
+    button[data-testid="stBaseButton-secondary"]:disabled p,
+    button[data-testid="stBaseButton-secondaryFormSubmit"]:disabled p { color: #A8A29E !important; }
+    div[data-testid="stTextInput"] [data-baseweb="input"],
+    div[data-testid="stTextInput"] [data-baseweb="base-input"],
+    div[data-testid="stTextArea"] [data-baseweb="textarea"],
+    div[data-testid="stTextArea"] [data-baseweb="base-input"] {
+        background-color: #FFFFFF !important; color: #171717 !important;
+    }
+    div[data-testid="stTextInput"] input,
+    div[data-testid="stTextArea"] textarea {
+        background-color: #FFFFFF !important; color: #171717 !important;
+        -webkit-text-fill-color: #171717 !important; caret-color: #171717 !important;
+        border: 1px solid #E7E5E4 !important;
+    }
+    div[data-testid="stTextInput"] input::placeholder,
+    div[data-testid="stTextArea"] textarea::placeholder {
+        color: #78716C !important; -webkit-text-fill-color: #78716C !important; opacity: 1 !important;
+    }
+    div[data-testid="stSelectbox"] [data-baseweb="select"] > div,
+    div[data-baseweb="popover"] [data-baseweb="menu"],
+    ul[data-testid="stSelectboxVirtualDropdown"] {
+        background-color: #FFFFFF !important; color: #171717 !important; border-color: #E7E5E4 !important;
+    }
+    div[data-baseweb="popover"] li,
+    ul[data-testid="stSelectboxVirtualDropdown"] li,
+    div[data-testid="stSelectbox"] [data-baseweb="select"] span,
+    div[data-testid="stRadio"] label,
+    div[data-testid="stWidgetLabel"] p { color: #171717 !important; }
+    div[data-testid="stVerticalBlockBorderWrapper"] {
+        background-color: #FFFFFF !important; border-color: #E7E5E4 !important;
+    }
+    .element-container:has(.examples-anchor) + .element-container button,
+    .element-container:has(.examples-anchor) + [data-testid="stLayoutWrapper"] button {
+        border-radius: 999px !important; background-color: #FFFFFF !important; border: 1px solid #E7E5E4 !important;
+        color: #171717 !important; font-weight: 550 !important; white-space: nowrap !important;
         min-height: 2.4rem !important;
     }
-    .element-container:has(.quiet-anchor) + .element-container button {
-        background: transparent !important; border: none !important; color: #78716C !important;
+    .element-container:has(.quiet-anchor) + .element-container button,
+    .element-container:has(.quiet-anchor) + [data-testid="stLayoutWrapper"] button {
+        background-color: #FFFFFF !important; border: 1px solid #E7E5E4 !important; color: #171717 !important;
         box-shadow: none !important; font-weight: 550 !important;
     }
     [data-testid="stColumn"]:has(.photo-card) { position: relative; }
